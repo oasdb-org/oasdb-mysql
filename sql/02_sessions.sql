@@ -1,4 +1,3 @@
-USE oasdb;
 CREATE TABLE IF NOT EXISTS `sessions` (
   `session_id` INT UNSIGNED NOT NULL COMMENT 'number of a session during this event\nSometimes there are only one session.',
   `event_id` INT UNSIGNED NOT NULL,
