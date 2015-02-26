@@ -1,4 +1,3 @@
-USE oasdb;
 CREATE TABLE IF NOT EXISTS `events` (
   `event_id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `title_short` VARCHAR(20) NULL,
